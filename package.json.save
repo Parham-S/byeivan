@@ -1,6 +1,7 @@
 {
   "name": "byeivan",
-  "version": "1.0.3",
+  "version": "1.0.3
+",
   "description": "commie filter in the form of an Express Server",
   "keywords": [
     "express",
