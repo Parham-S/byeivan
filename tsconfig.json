@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "lib": ["ES2019"],
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "sourceMap": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "outDir": "build",
+    "strict": true
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules/**/*", "jest.config.ts", "src/**/*.test.ts", "build/**/*"]
+}
