@@ -16,7 +16,7 @@ Table of contents:
 ## Installation
 
 ```Shell
-npm install --save byeivan
+npm install byeivan
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ const app = express();
 app.use(byeivan());
 ```
 
-### Customize response body and/or status code
+### Advanced - Customize response body and/or status code
 
 ```ts
 import express from 'express';
